@@ -1,0 +1,215 @@
+.chazelle {
+  width: 60ch;
+  height: 45ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/chazelle.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.mcz {
+  width: 60ch;
+  height: 45ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/mcz.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.hark {
+  width: 60ch;
+  height: 45ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/hark.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.focus {
+  width: 80ch;
+  height: 45ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/focus.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.kalfire {
+  width: 130ch;
+  height: 45ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/kalfire.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.heta {
+  width: 60ch;
+  height: 45ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/heta.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.ostro {
+  width: 60ch;
+  height: 60ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/ostro.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.ruegg {
+  width: 150ch;
+  height: 60ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/ruegg.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.virosa {
+  width: 150ch;
+  height: 60ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/vyrosa.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.jotul {
+  width: 80ch;
+  height: 60ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/jotul.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.nestor {
+  width: 80ch;
+  height: 60ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/nestor-martin.jpg);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.scan {
+  width: 80ch;
+  height: 60ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/scan.jpg);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+.chazelle:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.scan:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.nestor:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.jotul:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.virosa:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.ruegg:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.mcz:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.hark:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.focus:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.heta:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.ostro:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.kalfire:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
