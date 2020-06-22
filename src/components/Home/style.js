@@ -14,6 +14,7 @@ export const TestDiv = styled.div`
   flex-direction: column;
   background: grey;
   padding:30px;
+  z-index:-1;
 `;
 
 export const Overlay = styled.div`
@@ -22,7 +23,7 @@ export const Overlay = styled.div`
   left:0;
   right:0;
   bottom:0;
-  z-index:9999;
+  z-index:1;
 `;
 
 export const Overlay2 = styled.div`
@@ -36,6 +37,8 @@ export const Div = styled.div`
   display: relative;
   flex-direction: column;
   background: grey;
+  z-index:1;
+  position:absolute;
 `;
 
 export const TestElem = styled.p`

@@ -14,7 +14,6 @@ import Header from "../Header/index";
 import Footer from "../Footer/index";
 import SideBar from "../Sidebar/index";
 import PopUp from "../PopUp/index";
-import Gif3    from "../../assets/others/EoneIntro.gif";
 
 const Home = () => {
   const props = useSpring({
@@ -45,7 +44,9 @@ const Home = () => {
             <S.TestDiv>
               <S.TestElem>
                 <Card className="bg-dark text-white">
-                  <Card.Img src={Gif3} alt="Card image" />
+                  <video autoPlay playsinline muted loop>
+                    <source src="videos/EoneIntro.mp4" type="video/mp4"/>
+                  </video>
                   <Card.ImgOverlay>
                     <Card.Title><S.H3><strong>E-One exclusivité national</strong></S.H3></Card.Title>
                     <Card.Text>
