@@ -33,7 +33,7 @@ const CheminéesElectriques = () => {
         <S.Div>
           <Player
             fluid={false}
-            width={1500}
+            width={1000}
             height={600}
             autoPlay
           >
