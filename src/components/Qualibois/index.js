@@ -19,8 +19,9 @@ const Qualibois = () => {
                       page={1}
                       width={1000}
           />
+
+        <Footer></Footer>
         </S.Div>
-      <Footer></Footer>
     </>
   );
 };

@@ -2,9 +2,10 @@ import styled, {createGlobalStyle} from "styled-components";
 
 export const Div = styled.div`
   text-align: left;
+  position:relative;
   display: relative;
   flex-direction: column;
-  height: 1500px;
+  height: 1000px;
   background: grey;
   padding:30px;
 `;

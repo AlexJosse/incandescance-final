@@ -3,6 +3,7 @@ import styled, {createGlobalStyle} from "styled-components";
 export const Div = styled.div`
   text-align: left;
   display: relative;
+  position:relative;
   flex-direction: column;
   height: 1000px;
   background: rgba(120, 120, 120, 0.9);

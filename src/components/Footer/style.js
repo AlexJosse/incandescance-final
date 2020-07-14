@@ -8,7 +8,7 @@ import WebFont from "webfontloader";
 });
 
 export const Footer = styled.div`
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   height: 90px;

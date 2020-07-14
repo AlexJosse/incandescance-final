@@ -27,8 +27,8 @@ const Histoire = () => {
               <S.Text><strong>Les plus grandes marques</strong> sont proposées à notre catalogue pour vous assurer qualité, désign, performance et durabilité,</S.Text>
             </S.Li>
           </S.Ul>
+          <Footer></Footer>
         </S.Div>
-      <Footer></Footer>
     </>
   );
 };

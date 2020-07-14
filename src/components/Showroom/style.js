@@ -9,6 +9,7 @@ google: {
 
 export const TestDiv = styled.div`
   text-align: center;
+  position:relative;
   display: flex;
   flex-direction: column;
   background: black;

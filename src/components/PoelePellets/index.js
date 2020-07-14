@@ -13,8 +13,8 @@ const PoelePellets = () => {
     <Header></Header>
         <S.Div>
             <MczLogo></MczLogo>
+            <Footer></Footer>
         </S.Div>
-    <Footer></Footer>
     </>
   );
 };

@@ -30,8 +30,8 @@ const Savoir = () => {
               <S.Text><strong>Incandescence est certifiée</strong> par le label QUALIBOIS et EXPERT CHALEUR BOIS</S.Text>
             </S.Li>
           </S.Ul>
+          <Footer></Footer>
         </S.Div>
-      <Footer></Footer>
     </>
   );
 };

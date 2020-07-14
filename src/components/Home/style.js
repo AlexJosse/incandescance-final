@@ -9,8 +9,8 @@ google: {
 
 export const TestDiv = styled.div`
   text-align: center;
-  display: relative;
-  height: 2000px;
+  position: relative;
+  height: 1400px;
   flex-direction: column;
   background: grey;
   padding:30px;
@@ -26,19 +26,11 @@ export const Overlay = styled.div`
   z-index:1;
 `;
 
-export const Overlay2 = styled.div`
-  position:absolute;
-  text-align:center;
-  z-index:9999;
-`;
-
 export const Div = styled.div`
   text-align: left;
   display: relative;
   flex-direction: column;
   background: grey;
-  z-index:1;
-  position:absolute;
 `;
 
 export const TestElem = styled.p`

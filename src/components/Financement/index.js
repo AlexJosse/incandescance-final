@@ -65,9 +65,10 @@ const Financement = () => {
               <Image src={Logo} fluid onClick={() => imageClick()}/>
               </a>
             </S.TestElem>
+
+          <Footer></Footer>
           </S.TestDiv>
         </animated.div>
-      <Footer></Footer>
     </>
   );
 };

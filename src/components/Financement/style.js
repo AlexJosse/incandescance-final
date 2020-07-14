@@ -10,6 +10,7 @@ google: {
 export const TestDiv = styled.div`
   text-align: center;
   display: relative;
+  position:relative;
   height: 1500px;
   flex-direction: column;
   background: grey;

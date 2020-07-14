@@ -29,8 +29,8 @@ const PoeleBois = () => {
             <Col><HarkLogo></HarkLogo></Col>
             <Col><ScanLogo></ScanLogo></Col>
           </Row>
+          <Footer></Footer>
         </S.Div>
-    <Footer></Footer>
     </>
   );
 };

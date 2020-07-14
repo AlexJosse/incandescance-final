@@ -56,8 +56,8 @@ const Showroom = () => {
               <Col><Image src={Photo9} fluid></Image></Col>
               <Col><Image src={Photo10} fluid></Image></Col>
             </Row>
+            <Footer></Footer>
           </S.TestDiv>
-      <Footer></Footer>
     </>
   );
 };

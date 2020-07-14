@@ -31,8 +31,9 @@ const CheminéesBois = () => {
           <Row>
             <Col><KalfireLogo></KalfireLogo></Col>
           </Row>
+
+      <Footer></Footer>
         </S.Div>
-    <Footer></Footer>
     </>
   );
 };

@@ -57,9 +57,9 @@ const Home = () => {
 
 
               </S.TestElem>
+              <Footer></Footer>
             </S.TestDiv>
           </animated.div>
-      <Footer></Footer>
     </>
   );
 };

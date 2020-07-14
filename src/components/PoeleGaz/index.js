@@ -17,8 +17,8 @@ const PoeleGaz = () => {
             <Col><HetaLogo></HetaLogo></Col>
             <Col><FocusLogo></FocusLogo></Col>
           </Row>
+          <Footer></Footer>
         </S.Div>
-    <Footer></Footer>
     </>
   );
 };
