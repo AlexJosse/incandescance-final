@@ -8,5 +8,5 @@ export const Div = styled.div`
   flex-direction: column;
   background: grey;
   padding:30px;
-  height:2500px;
+  height:3500px;
 `;

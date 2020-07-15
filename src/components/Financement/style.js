@@ -11,7 +11,7 @@ export const TestDiv = styled.div`
   text-align: center;
   display: relative;
   position:relative;
-  height: 1500px;
+  height: 900px;
   flex-direction: column;
   background: grey;
   padding:30px;
@@ -22,7 +22,6 @@ export const AlignDiv = styled.div`
   display: relative;
   flex-direction: column;
   background: grey;
-  padding:30px;
 `;
 
 export const AlignDivTitle = styled.div`

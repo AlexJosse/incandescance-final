@@ -26,7 +26,6 @@ const Showroom = () => {
     <>
       <Header></Header>
          <S.TestDiv>
-            <S.Intro><strong>Nous vous accueillerons avec plaisir dans notre magasin où vous pourrez apprécier, sur une surface de xxx m2 un large éventail de réalisations avec de nombreux modèles en situation.</strong></S.Intro>
             <Row>
               <Col xs={6} md={4}><Image src={Photo1} fluid></Image></Col>
               <Col xs={6} md={4}><Image src={Photo2} fluid></Image></Col>

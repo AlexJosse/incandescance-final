@@ -37,7 +37,7 @@ class PopUp extends React.Component{
                             <p>Promotion sur la marque MCZ de 10 % et sur la marque KALFIRE.</p>
                         </Modal.Body>
                         <Modal.Footer>
-                          <Button variant="secondary" onClick={this.ClosePopUp}>Fermé</Button>
+                          <Button variant="secondary" onClick={this.ClosePopUp}>Fermer</Button>
                           <Button variant="primary">Voir la promotion</Button>
                         </Modal.Footer>
                       </S.Div>

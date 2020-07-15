@@ -33,6 +33,9 @@ const MapContainer = () => {
     return (
       <>
         <Header></Header>
+          <S.Div1>
+            sslslsl
+          </S.Div1>
           <S.Div>
             <div>
             <Map
@@ -45,7 +48,7 @@ const MapContainer = () => {
                 >
                <Marker
                  onClick={onMarkerClick}
-                 name={'Incandescance'}
+                 name={'Incandescence'}
                />
                <InfoWindow
                  marker={activeMarker}

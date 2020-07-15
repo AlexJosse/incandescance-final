@@ -9,6 +9,7 @@ import WebFont from "webfontloader";
 
 export const Form = styled.div`
   display: relative;
+  position: relative;
   flex-direction: column;
   height: 2200px;
   padding: 60px;

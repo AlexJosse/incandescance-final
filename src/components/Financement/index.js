@@ -44,20 +44,27 @@ const Financement = () => {
           <S.TestDiv>
             <S.TestElem>
               <S.AlignDivTitle>
-              Nous vous accompagnons dans votre projet avec dans une solution de payement en 3 ou 12 fois sans frais grâce notre partenaire FRANFINANCE
+                Nous vous accompagnons
+                financièrement dans votre projet avec une facilité
+                de paiement en 3 ou 12 règlements sans frais, grâce
+                à notre partenaire FRANFINANCE.
               </S.AlignDivTitle>
                 <Button variant="dark" size="lg" block onClick={displayFirst}>
-                  Pièces justificatives pour un payement en 3 fois sans frais:
+                  Pièces justificatives pour un
+                    paiement en 3 règlements sans frais :
                 </Button>
-              <div>
-                  {visibleFirst ? '' : <S.Align>- SCAN ou PHOTOCOPIE de  votre carte d identité ou passeport en cours de validité (si périmé de moins de 5 ans merci de joindre votre permis de conduire en plus)<br/>- RIB du compte à débiter (avec  nom de famille du demandeur obligatoirement)<br/>- Justificatif de domicile de moins de 3 mois (facture EDF ou VEOLIA, avis foncier, facture de téléphone etc..) à l'adresse du Chantier</S.Align>}
-              </div>
+              <S.AlignDiv>
+                  {visibleFirst ? '' : <S.Align>
+                    - SCAN ou PHOTOCOPIE de  votre carte d identité ou passeport en cours de validité (si périmé de moins de 5 ans merci de joindre votre permis de conduire en plus)
+                    <br/>- RIB du compte à débiter (avec  nom de famille du demandeur obligatoirement)<br/>
+                    - Justificatif de domicile de moins de 3 mois facture électrique (EDF, VEOLIA ...), avis foncier, facture de téléphone etc..) à l'adresse du Chantier</S.Align>}
+              </S.AlignDiv>
               <Button variant="dark" size="lg" block onClick={displaySec}>
-                Pièces justificatives pour un payement en 12 fois sans frais:
+               Pièces justificatives pour un paiement en 12 règlements sans frais 
               </Button>
-              <div>
-                {visibleSec ? '' : <S.Align>- SCAN ou PHOTOCOPIE de  votre carte d identité ou passeport en cours de validité (si périmé de moins de 5 ans merci de joindre votre permis de conduire en plus)<br/> - RIB du compte à débiter (avec  nom de famille du demandeur obligatoirement)<br/> - Justificatif de domicile de moins de 3 mois (facture EDF ou VEOLIA, avis foncier, facture de téléphone etc..) à l'adresse du Chantier<br/> - Si vous êtes salarié (votre dernière fiche de paye intégrale), <br/>Si vous êtes à votre compte : Vos deux derniers avis Fiscaux.</S.Align>}
-              </div>
+              <S.AlignDiv>
+                {visibleSec ? '' : <S.Align> - SCAN ou PHOTOCOPIE de  votre carte d identité ou passeport en cours de validité (si périmé de moins de 5 ans merci de joindre votre permis de conduire en plus)<br/> - RIB du compte à débiter (avec  nom de famille du demandeur obligatoirement)<br/> - Justificatif de domicile de moins de 3 mois facture électrique (EDF, VEOLIA ...), avis foncier, facture de téléphone etc..) à l'adresse du Chantier<br/> - Si vous êtes salarié (votre dernière fiche de paye intégrale), <br/> - Si vous êtes à votre compte : Vos deux derniers avis Fiscaux.</S.Align>}
+              </S.AlignDiv>
               <S.AlignDivTitle>
                 Nous proposons également des financement avec frais sur de plus longues périodes (nous consulter pour barème tarifaire)
               </S.AlignDivTitle>

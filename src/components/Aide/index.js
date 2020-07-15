@@ -3,7 +3,7 @@ import * as S from "./style";
 import Typed from "react-typed";
 import Header from "../Header/index";
 import Footer from "../Footer/index";
-import FileAide from '../../assets/pdf/aide.pdf';
+import FileAide from '../../assets/pdf/Incandescence-Aides-Financières.pdf';
 import { PDFReader  } from 'react-read-pdf';
 import Button from 'react-bootstrap/Button';
 
@@ -26,7 +26,7 @@ const Aide = () => {
     <>
       <Header></Header>
         <S.Div>
-          <a href='../../assets/pdf/aide.pdf' download><Button variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le pdf</Button></a>
+          <a href='../../assets/pdf/Incandescence-Aides-Financières.pdf' download><Button variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le pdf</Button></a>
           <PDFReader  url={FileAide}
                       page={pageNumber}
                       width={1000}

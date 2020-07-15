@@ -9,6 +9,10 @@ import JotulLogo from "../Logo/jotul";
 import NestorLogo from "../Logo/nestor";
 import HarkLogo from "../Logo/hark";
 import ScanLogo from "../Logo/scan";
+import MczLogo from "../Logo/mcz";
+import ChazelleLogo from "../Logo/chazelle";
+import FocusLogo from "../Logo/focus";
+import OstroLogo from "../Logo/ostro";
 import * as S from "./style";
 
 const PoeleBois = () => {
@@ -28,6 +32,14 @@ const PoeleBois = () => {
           <Row>
             <Col><HarkLogo></HarkLogo></Col>
             <Col><ScanLogo></ScanLogo></Col>
+          </Row>
+          <Row>
+            <Col><ChazelleLogo></ChazelleLogo></Col>
+            <Col><OstroLogo></OstroLogo></Col>
+          </Row>
+          <Row>
+            <Col><MczLogo></MczLogo></Col>
+            <Col><FocusLogo></FocusLogo></Col>
           </Row>
           <Footer></Footer>
         </S.Div>
