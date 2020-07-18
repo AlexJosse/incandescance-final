@@ -6,10 +6,12 @@ import Container from 'react-bootstrap/Container';
 import Footer from "../Footer/index";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
+
 
 const mapStyles = {
-  width: '60%',
-  height: '60%'
+  width: '100%',
+  height: '100%'
 };
 
 
@@ -30,11 +32,33 @@ const MapContainer = () => {
       setMarker(null);
     };
 
+    const goFacebook = () => {
+       window.open("https://www.facebook.com/Incandescence-517594435066890/", "_blank");
+    };
+
+    const goInsta = () => {
+       window.open("https://www.instagram.com/incandescence95220/", "_blank");
+    };
+
     return (
       <>
         <Header></Header>
+        <S.Co>
           <S.Div1>
-            sslslsl
+            <S.Text><strong>Adresse : </strong>222 Boulevard du Havre, 95220, La Patte d'Oie d'Herblay</S.Text><br>
+          </br>
+            <S.Text><strong>Téléphone :  </strong>01.39.78.96.95</S.Text><br>
+            </br>
+            <S.Text><strong>Mail : </strong>infos@incandescence-chauffage.com</S.Text><br>
+          </br>
+            <S.Text><strong>Facebook : </strong> <Button size="lg" variant="outline-primary">Rejoignez nous <a href="">
+            <i onClick={goInsta} className="fa fa-facebook fa-2x"></i>
+            </a></Button></S.Text><br>
+          </br>
+            <S.Text><strong>Instagram : </strong><Button size="lg" variant="outline-primary">Plus de vidéos <a href="">
+              <i onClick={goFacebook} className="fa fa-instagram fa-2x"></i>
+              </a></Button></S.Text><br>
+          </br>
           </S.Div1>
           <S.Div>
             <div>
@@ -65,6 +89,8 @@ const MapContainer = () => {
                slslsl
              </div>
             </S.Div>
+            <Footer></Footer>
+            </S.Co>
       </>
     );
 };
