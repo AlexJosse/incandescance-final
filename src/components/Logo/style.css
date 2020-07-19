@@ -1,6 +1,6 @@
 .chazelle {
   width: 60ch;
-  height: 45ch;
+  height: 40ch;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/chazelle.png);
@@ -14,7 +14,7 @@
 
 .mcz {
   width: 60ch;
-  height: 45ch;
+  height: 40ch;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/mcz.png);
@@ -28,7 +28,7 @@
 
 .hark {
   width: 60ch;
-  height: 45ch;
+  height: 40ch;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/hark.png);
@@ -70,7 +70,7 @@
 
 .heta {
   width: 60ch;
-  height: 45ch;
+  height: 40ch;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/heta.png);
@@ -111,8 +111,8 @@
 }
 
 .virosa {
-  width: 150ch;
-  height: 60ch;
+  width: 60ch;
+  height: 40ch;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/vyrosa.png);
@@ -125,8 +125,8 @@
 }
 
 .jotul {
-  width: 80ch;
-  height: 60ch;
+  width: 60ch;
+  height: 40ch;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/jotul.png);
@@ -139,8 +139,8 @@
 }
 
 .nestor {
-  width: 80ch;
-  height: 60ch;
+  width: 60ch;
+  height: 40ch;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/nestor-martin.jpg);
@@ -153,8 +153,8 @@
 }
 
 .scan {
-  width: 80ch;
-  height: 60ch;
+  width: 60ch;
+  height: 40ch;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/scan.jpg);
