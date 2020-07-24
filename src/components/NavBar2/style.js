@@ -2,12 +2,16 @@ import styled from "styled-components";
 
 export const ItemA = styled.a`
   color: white;
-  border: none;
   text-decoration: none;
+  border: none;
   :hover:not(.active) {
     text-decoration: underline;
   }
 `;
+
+export const Text = styled.p`
+  font-size:smaller;
+`
 
 export const ItemB = styled.li`
   color: black;
