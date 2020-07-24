@@ -12,6 +12,20 @@
   border: 15px solid white;
 }
 
+.tonwerk {
+  width: 60ch;
+  height: 40ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/tonwerk.jpg);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
 .mcz {
   width: 60ch;
   height: 40ch;
@@ -166,6 +180,20 @@
   border: 15px solid white;
 }
 
+.kemp {
+  width: 60ch;
+  height: 40ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(../../assets/logo/kemp.png);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
 .chazelle:hover {
   box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
 }
@@ -187,6 +215,14 @@
 }
 
 .ruegg:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.tonwerk:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.kemp:hover {
   box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
 }
 

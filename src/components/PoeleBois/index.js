@@ -13,6 +13,7 @@ import MczLogo from "../Logo/mcz";
 import ChazelleLogo from "../Logo/chazelle";
 import FocusLogo from "../Logo/focus";
 import OstroLogo from "../Logo/ostro";
+import TonwerkLogo from "../Logo/tonwerk";
 import * as S from "./style";
 
 const PoeleBois = () => {
@@ -40,6 +41,9 @@ const PoeleBois = () => {
           <Row>
             <Col><MczLogo></MczLogo></Col>
             <Col><FocusLogo></FocusLogo></Col>
+          </Row>
+          <Row>
+            <Col><TonwerkLogo></TonwerkLogo></Col>
           </Row>
           <Footer></Footer>
         </S.Div>

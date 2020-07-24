@@ -8,6 +8,7 @@ import MczLogo from "../Logo/mcz";
 import OstroLogo from "../Logo/ostro";
 import FocusLogo from "../Logo/focus";
 import KalfireLogo from "../Logo/kalfire";
+import KempLogo from "../Logo/kemp";
 import * as S from "./style";
 
 const CheminéesBois = () => {
@@ -30,8 +31,8 @@ const CheminéesBois = () => {
         <S.Div>
           <Row>
             <Col><KalfireLogo></KalfireLogo></Col>
+            <Col><KempLogo></KempLogo></Col>
           </Row>
-
       <Footer></Footer>
         </S.Div>
     </>
