@@ -80,7 +80,7 @@ const MapContainer = () => {
                  onClose={onClose}
                >
                <div>
-                 <h4>Incandescance</h4>
+                 <h4>Incandescence</h4>
                </div>
               </InfoWindow>
              </Map>

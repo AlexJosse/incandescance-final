@@ -27,7 +27,7 @@ const Savoir = () => {
               <S.Text><strong>Les nouvelles technologies </strong>sont un axe majeur de nos propositions pour toujours plus de performance et de beauté,</S.Text>
             </S.Li>
             <S.Li>
-              <S.Text><strong>Incandescence est certifiée</strong> par le label QUALIBOIS et EXPERT CHALEUR BOIS</S.Text>
+              <S.Text><strong>Incandescence est certifiée</strong> par le label RGE QUALIBOIS et EXPERT CHALEUR BOIS</S.Text>
             </S.Li>
           </S.Ul>
           <Footer></Footer>

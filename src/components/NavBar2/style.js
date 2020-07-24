@@ -7,11 +7,8 @@ export const ItemA = styled.a`
   :hover:not(.active) {
     text-decoration: underline;
   }
+  font-size: smaller;
 `;
-
-export const Text = styled.p`
-  font-size:smaller;
-`
 
 export const ItemB = styled.li`
   color: black;
