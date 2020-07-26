@@ -139,91 +139,84 @@ PhotoGallery.defaultProps = {
             thumbnail: Real1,
             thumbnailWidth: 320,
             thumbnailHeight: 174,
-            tags: [{value: "Nature", title: "Nature"}, {value: "Flora", title: "Flora"}],
-            caption: "After Rain (Jeshu John - designerspics.com)"
+            caption: ""
         },
         {
             src: Real2,
             thumbnail: Real3,
             thumbnailWidth: 320,
             thumbnailHeight: 212,
-            caption: "Boats (Jeshu John - designerspics.com)"
+            caption: ""
         },
         {
             src: Real4,
             thumbnail: Real4,
             thumbnailWidth: 320,
             thumbnailHeight: 212,
-            caption: "Color Pencils (Jeshu John - designerspics.com)"
+            caption: ""
         },
         {
             src: Real5,
             thumbnail: Real5,
             thumbnailWidth: 320,
             thumbnailHeight: 213,
-            caption: "Red Apples with other Red Fruit (foodiesfeed.com)"
+            caption: ""
         },
         {
             src: Real6,
             thumbnail: Real6,
             thumbnailWidth: 320,
             thumbnailHeight: 183,
-            caption: "realisation 1"
+            caption: ""
         },
         {
             src: Real7,
             thumbnail: Real7,
             thumbnailWidth: 240,
             thumbnailHeight: 320,
-            tags: [{value: "Nature", title: "Nature"}],
-            caption: "8H (gratisography.com)"
+            caption: ""
         },
         {
             src: Real8,
             thumbnail: Real8,
             thumbnailWidth: 320,
             thumbnailHeight: 190,
-            caption: "286H (gratisography.com)"
+            caption: ""
         },
         {
             src: Real9,
             thumbnail: Real9,
             thumbnailWidth: 320,
             thumbnailHeight: 148,
-            tags: [{value: "People", title: "People"}],
-            caption: "315H (gratisography.com)"
+            caption: ""
         },
         {
             src: Real10,
             thumbnail: Real10,
             thumbnailWidth: 320,
             thumbnailHeight: 213,
-            caption: "201H (gratisography.com)"
+            caption: ""
         },
         {
             src: Real11,
-            alt: "Big Ben - London",
             thumbnail: Real11,
             thumbnailWidth: 248,
             thumbnailHeight: 320,
-            caption: "Big Ben (Tom Eversley - isorepublic.com)"
+            caption: ""
         },
         {
             src: Real12,
-            alt: "Red Zone - Paris",
             thumbnail: Real12,
             thumbnailWidth: 320,
             thumbnailHeight: 113,
-            tags: [{value: "People", title: "People"}],
-            caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)"
+            caption: ""
         },
         {
             src: Real12,
             thumbnail: Real12,
             thumbnailWidth: 320,
             thumbnailHeight: 213,
-            tags: [{value: "Nature", title: "Nature"}, {value: "People", title: "People"}],
-            caption: "Surfer Sunset (Tom Eversley - isorepublic.com)"
+            caption: ""
         }
     ]).splice(0,15)
 };

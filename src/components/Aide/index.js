@@ -11,6 +11,11 @@ import Button from 'react-bootstrap/Button';
 const Aide = () => {
 
   const [pageNumber, setpageNumber] = useState(1);
+  const [visibleFirst, setVisibleFirst] = useState(false);
+
+  const displayFirst = () => {
+    setVisibleFirst(!visibleFirst);
+  }
 
   const nextPage = () => {
     setpageNumber(pageNumber + 1);
@@ -26,19 +31,24 @@ const Aide = () => {
     <>
       <Header></Header>
         <S.Div>
-          <a href='../../assets/pdf/Incandescence-Aides-Financières.pdf' download><Button variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le pdf</Button></a>
-          <PDFReader  url={FileAide}
+          <br></br>
+          <a href='../../assets/pdf/Incandescence-Aides-Financières.pdf' download><Button size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le PDF</Button></a>
+          <br></br>
+          <Button onClick={displayFirst} size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Afficher le PDF</Button>
+          {visibleFirst  ? <PDFReader  url={FileAide}
                       page={pageNumber}
                       width={1000}
           />
-        <Button variant="secondary" size="lg" block onClick={nextPage}>
-              Page Suivante
-        </Button>
-        <Button variant="secondary" size="lg" block onClick={prevPage}>
-              Page Précédente
-        </Button>
-        </S.Div>
+           : null}
+           {visibleFirst  ? <Button variant="secondary" size="lg" block onClick={nextPage}>
+                 Page Suivante
+           </Button> : null}
+           {visibleFirst  ? <Button variant="secondary" size="lg" block onClick={prevPage}>
+                 Page Précédente
+           </Button> : null}
+
       <Footer></Footer>
+        </S.Div>
     </>
   );
 };
