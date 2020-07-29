@@ -16,8 +16,6 @@ const CheminéesGaz = () => {
           <Row>
             <Col><FocusLogo></FocusLogo></Col>
           </Row>
-        </S.Div>
-        <S.Div>
           <Row>
             <Col><KalfireLogo></KalfireLogo></Col>
           </Row>

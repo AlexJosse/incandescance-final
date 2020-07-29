@@ -13,8 +13,8 @@
 }
 
 .tonwerk {
-  width: 60ch;
-  height: 40ch;
+  width: 50ch;
+  height: 12ch;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/tonwerk.jpg);
@@ -70,7 +70,7 @@
 
 .kalfire {
   width: 130ch;
-  height: 45ch;
+  height: 40ch;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/kalfire.png);
@@ -181,7 +181,7 @@
 }
 
 .kemp {
-  width: 60ch;
+  width: 110ch;
   height: 40ch;
   background: grey;
   border-radius: 5px;

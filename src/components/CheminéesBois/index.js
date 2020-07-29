@@ -21,14 +21,10 @@ const CheminéesBois = () => {
             <Col><ChazelleLogo></ChazelleLogo></Col>
             <Col><MczLogo></MczLogo></Col>
           </Row>
-        </S.Div>
-        <S.Div>
           <Row>
             <Col><OstroLogo></OstroLogo></Col>
             <Col><FocusLogo></FocusLogo></Col>
           </Row>
-        </S.Div>
-        <S.Div>
           <Row>
             <Col><KalfireLogo></KalfireLogo></Col>
             <Col><KempLogo></KempLogo></Col>

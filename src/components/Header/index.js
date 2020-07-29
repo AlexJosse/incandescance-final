@@ -2,9 +2,11 @@ import React from "react";
 import * as S from "./style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useSpring, animated } from 'react-spring';
+import Image from 'react-bootstrap/Image';
 import { faFire } from "@fortawesome/free-solid-svg-icons";
 import NavBar from "../NavBar/index";
 import NavBar2 from "../NavBar2/index";
+import EnTete from "../../assets/others/entete.jpg"
 
 const AnimFeTurbulence = animated('feTurbulence')
 const AnimFeDisplacementMap = animated('feDisplacementMap')
