@@ -4,7 +4,6 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "../node_modules/video-react/dist/video-react.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
