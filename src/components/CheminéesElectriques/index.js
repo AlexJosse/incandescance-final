@@ -3,17 +3,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Header from "../Header/index";
 import Footer from "../Footer/index";
-import { Player, ControlBar } from 'video-react';
 import FileEone from '../../assets/pdf/e-one.pdf';
 import { PDFReader  } from 'react-read-pdf';
 import Button from 'react-bootstrap/Button';
 import KalfireLogo from "../Logo/kalfire";
 import * as S from "./style";
-
+import Iframe from 'react-iframe';
 
 const CheminéesElectriques = () => {
-
-  const [source, setSource] = useState('videos/eone100.mp4');
 
   const [pageNumber, setpageNumber] = useState(1);
 
@@ -31,15 +28,13 @@ const CheminéesElectriques = () => {
     <>
     <Header></Header>
         <S.Div>
-          <Player
-            fluid={false}
-            width={1200}
-            height={600}
-            autoPlay
-          >
-          <source src={source} />
-          <ControlBar autoHide={false} />
-        </Player>
+          <Iframe url="https://streamable.com/e/n0xs87?autoplay=1"
+    width="100%"
+    height="700px"
+    id="myId"
+    className="myClassname"
+    display="initial"
+    position="relative"/>
         <a href='../../assets/pdf/e-one.pdf' download><Button variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le pdf</Button></a>
         <PDFReader  url={FileEone}
                     page={pageNumber}

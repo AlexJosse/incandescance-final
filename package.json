@@ -35,7 +35,6 @@
     "shuffle-array": "^1.0.1",
     "styled-components": "^4.4.1",
     "styled-tools": "^1.7.1",
-    "video-react": "^0.14.1",
     "webfontloader": "^1.6.28"
   },
   "scripts": {

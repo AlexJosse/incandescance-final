@@ -53,6 +53,6 @@ export const Anim = styled.div`
   background: black;
 `;
 
-export const H3 = styled.h3`
-  color: red;
+export const Text = styled.p`
+  color: white;
 `;

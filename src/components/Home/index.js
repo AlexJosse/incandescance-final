@@ -41,6 +41,7 @@ const Home = () => {
             <S.Div>
               <Covid></Covid>
               <SideBar></SideBar>
+
             </S.Div>
             <S.TestDiv>
               <Iframe url="https://streamable.com/e/rc5tlo?autoplay=1"
