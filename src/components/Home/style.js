@@ -13,7 +13,8 @@ export const TestDiv = styled.div`
   height: 1400px;
   flex-direction: column;
   background: grey;
-  padding:30px;
+  padding: 0;
+  display: relative;
   z-index:-1;
 `;
 
