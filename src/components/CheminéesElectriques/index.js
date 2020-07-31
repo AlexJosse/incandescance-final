@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Iframe from 'react-iframe';
 import Header from "../Header/index";
 import Footer from "../Footer/index";
 import FileEone from '../../assets/pdf/e-one.pdf';
@@ -8,7 +9,6 @@ import { PDFReader  } from 'react-read-pdf';
 import Button from 'react-bootstrap/Button';
 import KalfireLogo from "../Logo/kalfire";
 import * as S from "./style";
-import Iframe from 'react-iframe';
 
 const CheminéesElectriques = () => {
 
