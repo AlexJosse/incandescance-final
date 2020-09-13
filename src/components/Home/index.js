@@ -41,7 +41,6 @@ const Home = () => {
             <S.Div>
               <Covid></Covid>
 
-              <SideBar></SideBar>
 
             </S.Div>
             <S.TestDiv>
