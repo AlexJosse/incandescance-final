@@ -34,7 +34,6 @@ const Home = () => {
   }
 
   return (
-    <>
     <Container fluid>
         <Header></Header>
           {/*<PopUp></PopUp>*/}
@@ -57,7 +56,6 @@ const Home = () => {
             </S.TestDiv>
           </animated.div>
           </Container>
-    </>
   );
 };
 
