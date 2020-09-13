@@ -35,15 +35,20 @@ const Home = () => {
 
   return (
     <>
+
+    <Container>
+      <Row>
         <Header></Header>
-          <PopUp></PopUp>
+        </Row>
+          {/*<PopUp></PopUp>*/}
+
           <animated.div style={props}>
             <S.Div>
               <Covid></Covid>
               <SideBar></SideBar>
-
             </S.Div>
             <S.TestDiv>
+              <Row>
               <Iframe url="https://streamable.com/e/rc5tlo?autoplay=1"
         width="100%"
         height="800px"
@@ -51,10 +56,11 @@ const Home = () => {
         className="myClassname"
         display="initial"
         position="relative"/>
-
+</Row>
               <Footer></Footer>
             </S.TestDiv>
           </animated.div>
+          </Container>
     </>
   );
 };
