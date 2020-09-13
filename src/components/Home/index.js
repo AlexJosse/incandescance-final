@@ -35,6 +35,7 @@ const Home = () => {
 
   return (
     <>
+    <Container fluid>
         <Header></Header>
           {/*<PopUp></PopUp>*/}
           <animated.div style={props}>
@@ -55,6 +56,7 @@ const Home = () => {
               <Footer></Footer>
             </S.TestDiv>
           </animated.div>
+          </Container>
     </>
   );
 };
