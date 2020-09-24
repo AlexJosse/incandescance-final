@@ -19,11 +19,26 @@ import Photo8 from "../../assets/showroom/etage/4/4.JPG";
 import Photo9 from "../../assets/showroom/etage/5/5.JPG";
 import Photo10 from "../../assets/showroom/etage/6/6.JPG";
 import Photo11 from "../../assets/showroom/etage/7/7.JPG";
+import Helmet from "react-helmet";
 
 const Showroom = () => {
 
   return (
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Showroom incandescence</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="showroom incandescence"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="showroom incandescence"
+      />
+  </Helmet>
       <Header></Header>
          <S.TestDiv>
             <Row>

@@ -8,6 +8,7 @@ import Typed from "react-typed";
 import Header from "../Header/index";
 import Footer from "../Footer/index";
 import Logo from "../../assets/others/franfinance.png";
+import Helmet from "react-helmet";
 
 const Financement = () => {
 
@@ -39,6 +40,20 @@ const Financement = () => {
   }
   return (
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Financement Aides</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="Financement Aides"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="Financement Aides"
+      />
+  </Helmet>
       <Header></Header>
         <animated.div style={props}>
           <S.TestDiv>

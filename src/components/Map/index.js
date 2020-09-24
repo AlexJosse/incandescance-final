@@ -7,7 +7,7 @@ import Footer from "../Footer/index";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
-
+import Helmet from "react-helmet";
 
 const mapStyles = {
   width: '100%',
@@ -42,6 +42,20 @@ const MapContainer = () => {
 
     return (
       <>
+      <Helmet>
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Contacter incandescence</title>
+        <meta
+          charSet="utf-8"
+          name="incandescence"
+          content="Adresse, telephone, facebook"
+        />
+      <meta itemprop="name" content="myincandescence" />
+        <meta
+          itemprop="incandescence"
+          content="Adresse, telephone, facebook "
+        />
+    </Helmet>
         <Header></Header>
         <S.Co>
           <S.Div1>

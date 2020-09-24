@@ -6,11 +6,26 @@ import Footer from "../Footer/index";
 import KalfireLogo from "../Logo/kalfire";
 import FocusLogo from "../Logo/focus";
 import * as S from "./style";
+import Helmet from "react-helmet";
 
 const CheminéesGaz = () => {
 
   return (
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Cheminées Gaz</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="Cheminées Gaz"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="Cheminées Gaz"
+      />
+  </Helmet>
     <Header></Header>
         <S.Div>
           <Row>

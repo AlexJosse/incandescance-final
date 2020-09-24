@@ -15,11 +15,26 @@ import FocusLogo from "../Logo/focus";
 import OstroLogo from "../Logo/ostro";
 import TonwerkLogo from "../Logo/tonwerk";
 import * as S from "./style";
+import Helmet from "react-helmet";
 
 const PoeleBois = () => {
 
   return (
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Poëles Bois</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="Poëles Bois"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="Poëles Bois"
+      />
+  </Helmet>
     <Header></Header>
         <S.Div>
           <Row>

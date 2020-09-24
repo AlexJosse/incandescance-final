@@ -6,7 +6,7 @@ import Footer from "../Footer/index";
 import FileAide from '../../assets/pdf/Incandescence-Aides-Financières.pdf';
 import { PDFReader  } from 'react-read-pdf';
 import Button from 'react-bootstrap/Button';
-
+import Helmet from "react-helmet";
 
 const Aide = () => {
 
@@ -29,6 +29,20 @@ const Aide = () => {
 
   return (
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Aide</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="aides Financières"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="aides Financières"
+      />
+  </Helmet>
       <Header></Header>
         <S.Div>
           <br></br>

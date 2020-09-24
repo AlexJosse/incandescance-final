@@ -10,11 +10,26 @@ import FocusLogo from "../Logo/focus";
 import KalfireLogo from "../Logo/kalfire";
 import KempLogo from "../Logo/kemp";
 import * as S from "./style";
+import Helmet from "react-helmet";
 
 const CheminéesBois = () => {
 
   return (
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Cheminées Bois</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="Cheminées"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="Cheminées Bois"
+      />
+  </Helmet>
     <Header></Header>
         <S.Div>
           <Row>

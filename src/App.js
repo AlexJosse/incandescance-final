@@ -33,15 +33,20 @@ function App() {
       {/* <!-- HTML Meta Tags --> */}
       <title>Incandescence</title>
       <meta
+        charSet="utf-8"
         name="incandescence"
         content="cheminée, poële, mcz, incandescence sur-mesure"
+      />
+      <link
+          rel="myincandescence"
+          href="my.myincandescence.app.com"
       />
 
       {/* <!-- Google / Search Engine Tags --> */}
       <meta itemprop="name" content="Reed" />
       <meta
         itemprop="incandescence"
-        content="Articles, tips, and insights aimed at making you a world-class developer, designer, and beyond."
+        content="cheminée, poële, mcz, incandescence sur-mesure"
       />
     </Helmet>
       <Router>

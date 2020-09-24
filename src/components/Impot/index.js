@@ -5,6 +5,7 @@ import { useSpring, animated } from "react-spring";
 import Typed from "react-typed";
 import Header from "../Header/index";
 import Footer from "../Footer/index";
+import Helmet from "react-helmet";
 
 const Impot = () => {
 
@@ -17,6 +18,20 @@ const Impot = () => {
 
   return (
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>CREDITS D'IMPOTS ET AIDES FINANCIERES</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="CREDITS D'IMPOTS ET AIDES FINANCIERES"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="CREDITS D'IMPOTS ET AIDES FINANCIERES"
+      />
+  </Helmet>
       <Header></Header>
       <Container>
           <animated.div style={props}>

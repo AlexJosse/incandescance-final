@@ -15,6 +15,7 @@ import Footer from "../Footer/index";
 import SideBar from "../Sidebar/index";
 import PopUp from "../PopUp/index";
 import Iframe from 'react-iframe';
+import Helmet from "react-helmet";
 
 const Home = () => {
   const props = useSpring({
@@ -35,6 +36,26 @@ const Home = () => {
 
   return (
     <Container fluid>
+      <Helmet>
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Incandescence</title>
+        <meta
+          charSet="utf-8"
+          name="incandescence"
+          content="cheminée, poële, mcz, incandescence sur-mesure"
+        />
+        <link
+            rel="myincandescence"
+            href="my.myincandescence.app.com"
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta itemprop="name" content="Reed" />
+        <meta
+          itemprop="incandescence"
+          content="cheminée, poële, mcz, incandescence sur-mesure"
+        />
+      </Helmet>
         <Header></Header>
           {/*<PopUp></PopUp>*/}
           <animated.div style={props}>

@@ -7,6 +7,7 @@ import FileAide from '../../assets/pdf/Incandescence-Certification-Qualibois.pdf
 import FileAide2 from '../../assets/pdf/ECB-Certificat-adhesion-Incandescence.pdf';
 import { PDFReader  } from 'react-read-pdf';
 import Button from 'react-bootstrap/Button';
+import Helmet from "react-helmet";
 
 
 const Qualibois = () => {
@@ -24,6 +25,20 @@ const Qualibois = () => {
 
   return (
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Certification Qualibois</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="Certification Qualibois"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="Certification Qualibois"
+      />
+  </Helmet>
       <Header></Header>
         <S.Div>
           <br></br>

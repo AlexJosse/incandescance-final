@@ -3,11 +3,26 @@ import * as S from "./style";
 import Typed from "react-typed";
 import Header from "../Header/index";
 import Footer from "../Footer/index";
+import Helmet from "react-helmet";
 
 const Histoire = () => {
 
   return (
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Histoire incandescence</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="Histoire incandescence"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="Histoire incandescence"
+      />
+  </Helmet>
       <Header></Header>
         <S.Div>
           <S.Ul>

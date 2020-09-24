@@ -9,6 +9,7 @@ import { PDFReader  } from 'react-read-pdf';
 import Button from 'react-bootstrap/Button';
 import KalfireLogo from "../Logo/kalfire";
 import * as S from "./style";
+import Helmet from "react-helmet";
 
 const CheminéesElectriques = () => {
 
@@ -26,6 +27,20 @@ const CheminéesElectriques = () => {
 
   return (
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Cheminées Electrique</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="Cheminées Electrique"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="Cheminées Electrique"
+      />
+  </Helmet>
     <Header></Header>
         <S.Div>
           <Iframe url="https://streamable.com/e/n0xs87?autoplay=1"

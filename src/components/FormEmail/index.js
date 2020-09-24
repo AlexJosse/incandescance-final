@@ -4,6 +4,7 @@ import * as S from "./style";
 import Typed from "react-typed";
 import Header from "../Header/index";
 import Footer from "../Footer/index";
+import Helmet from "react-helmet";
 
 const FormEmail = () => {
   const { register, handleSubmit } = useForm();
@@ -14,6 +15,20 @@ const FormEmail = () => {
 
   return(
     <>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Contacter incandescence</title>
+      <meta
+        charSet="utf-8"
+        name="incandescence"
+        content="Contacter incandescence"
+      />
+    <meta itemprop="name" content="myincandescence" />
+      <meta
+        itemprop="incandescence"
+        content="Contacter incandescence"
+      />
+  </Helmet>
       <Header></Header>
         <S.Form>
           <form onSubmit={handleSubmit(onSubmit)}>
