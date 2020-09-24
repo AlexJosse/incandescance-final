@@ -23,10 +23,27 @@ import Savoir from "./components/Savoir/index";
 import MapContainer from "./components/Map/index";
 import Plan from "./components/Plan/index";
 import 'react-bnb-gallery/dist/style.css';
+import Helmet from "react-helmet";
 
 function App() {
   return (
     <>
+    <main>
+    <Helmet>
+      {/* <!-- HTML Meta Tags --> */}
+      <title>Incandescence</title>
+      <meta
+        name="incandescence"
+        content="cheminée, poële, mcz, incandescence sur-mesure"
+      />
+
+      {/* <!-- Google / Search Engine Tags --> */}
+      <meta itemprop="name" content="Reed" />
+      <meta
+        itemprop="incandescence"
+        content="Articles, tips, and insights aimed at making you a world-class developer, designer, and beyond."
+      />
+    </Helmet>
       <Router>
         <Switch>
           <ThemeProvider theme={theme}>
@@ -52,6 +69,7 @@ function App() {
           </ThemeProvider>
         </Switch>
       </Router>
+    </main>
     </>
   );
 }
