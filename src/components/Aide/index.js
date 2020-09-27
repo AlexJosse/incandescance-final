@@ -34,7 +34,7 @@ const Aide = () => {
       <title>Aide</title>
       <meta
         charSet="utf-8"
-        name="incandescence"
+        name="incandescence Aides"
         content="aides Financières"
       />
     <meta itemprop="name" content="myincandescence" />
