@@ -28,7 +28,7 @@ export const HeaderText = styled.p`
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 200%;
+  font-size: 100%;
   color:white;
   font-family: "Lora", serif;
 `;
@@ -39,9 +39,9 @@ export const Title = styled.p`
   margin-right: 10px;
   font-family: Arial;
   font-style: italic;
-  font-size: 300%;
+  font-size: larger;
 
-  font-weight: 900;
+  font-weight: larger;
   color:red;
   text-decoration: underline;
 `;
