@@ -2,6 +2,8 @@
   width: 60ch;
   height: 40ch;
   background: grey;
+
+  max-width: 100%;
   border-radius: 5px;
   background-image: url(../../assets/logo/chazelle.png);
   background-size: cover;
@@ -16,6 +18,8 @@
   width: 50ch;
   height: 12ch;
   background: grey;
+
+    max-width: 100%;
   border-radius: 5px;
   background-image: url(../../assets/logo/tonwerk.jpg);
   background-size: cover;
@@ -29,6 +33,8 @@
 .mcz {
   width: 60ch;
   height: 40ch;
+
+    max-width: 100%;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/mcz.png);
@@ -44,6 +50,8 @@
   width: 60ch;
   height: 40ch;
   background: grey;
+
+    max-width: 100%;
   border-radius: 5px;
   background-image: url(../../assets/logo/hark.png);
   background-size: cover;
@@ -57,6 +65,8 @@
 .focus {
   width: 80ch;
   height: 45ch;
+
+    max-width: 100%;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/focus.png);
@@ -72,6 +82,8 @@
   width: 130ch;
   height: 40ch;
   background: grey;
+
+    max-width: 100%;
   border-radius: 5px;
   background-image: url(../../assets/logo/kalfire.png);
   background-size: cover;
@@ -86,6 +98,8 @@
   width: 60ch;
   height: 40ch;
   background: grey;
+
+    max-width: 100%;
   border-radius: 5px;
   background-image: url(../../assets/logo/heta.png);
   background-size: cover;
@@ -100,6 +114,8 @@
   width: 60ch;
   height: 60ch;
   background: grey;
+
+    max-width: 100%;
   border-radius: 5px;
   background-image: url(../../assets/logo/ostro.png);
   background-size: cover;
@@ -114,6 +130,8 @@
   width: 150ch;
   height: 60ch;
   background: grey;
+
+    max-width: 100%;
   border-radius: 5px;
   background-image: url(../../assets/logo/ruegg.png);
   background-size: cover;
@@ -132,6 +150,8 @@
   background-image: url(../../assets/logo/vyrosa.png);
   background-size: cover;
   background-position: center center;
+
+    max-width: 100%;
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.5s;
   will-change: transform;
@@ -141,6 +161,8 @@
 .jotul {
   width: 60ch;
   height: 40ch;
+
+    max-width: 100%;
   background: grey;
   border-radius: 5px;
   background-image: url(../../assets/logo/jotul.png);
@@ -153,6 +175,8 @@
 }
 
 .nestor {
+
+    max-width: 100%;
   width: 60ch;
   height: 40ch;
   background: grey;
@@ -171,6 +195,8 @@
   height: 40ch;
   background: grey;
   border-radius: 5px;
+
+    max-width: 100%;
   background-image: url(../../assets/logo/scan.jpg);
   background-size: cover;
   background-position: center center;
@@ -182,6 +208,8 @@
 
 .kemp {
   width: 110ch;
+
+    max-width: 100%;
   height: 40ch;
   background: grey;
   border-radius: 5px;
