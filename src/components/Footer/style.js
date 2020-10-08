@@ -11,7 +11,7 @@ export const Footer = styled.div`
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 20%;
+  height: 200px;
   width: 100%;
   background-color: #333;
   color: white;
