@@ -1,13 +1,27 @@
 import React from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+import { useMediaQuery } from 'react-responsive';
 import Header from "../Header/index";
 import Footer from "../Footer/index";
 import MczLogo from "../Logo/mcz";
+import MczPhoto from "../../assets/logo/mcz.png";
 import * as S from "./style";
 import Helmet from "react-helmet";
 
 const PoelePellets = () => {
+
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  })
+  const isBigScreen = useMediaQuery({ query: '(min-device-width: 1824px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isTabletOrMobileDevice = useMediaQuery({
+    query: '(max-device-width: 1224px)'
+  })
+  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
 
   return (
     <>
@@ -27,7 +41,18 @@ const PoelePellets = () => {
   </Helmet>
     <Header></Header>
         <S.Div>
-            <MczLogo></MczLogo>
+            {isDesktopOrLaptop && <>
+            <MczLogo></MczLogo></>}
+
+            {isTabletOrMobile && <> <Row>
+                <Col>
+                  <a href="https://www.mcz.it/fr/cheminees-a-bois/">
+                    <Image src={MczPhoto} fluid />
+                  </a>
+                  &nbsp;
+                </Col>
+              </Row>
+              </>}
             <Footer></Footer>
         </S.Div>
     </>

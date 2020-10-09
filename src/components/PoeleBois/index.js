@@ -18,6 +18,13 @@ import OstroLogo from "../Logo/ostro";
 import TonwerkLogo from "../Logo/tonwerk";
 
 import ChazellePhoto from "../../assets/logo/chazelle.png";
+import TonwerkPhoto from "../../assets/logo/tonwerk.jpg";
+import ScanPhoto from "../../assets/logo/scan.jpg";
+import HarkPhoto from "../../assets/logo/hark.png";
+import NestorPhoto from "../../assets/logo/nestor-martin.jpg";
+import HetaPhoto from "../../assets/logo/heta.png";
+import VyrosaPhoto from "../../assets/logo/vyrosa.png";
+import JotulPhoto from "../../assets/logo/jotul.png";
 import MczPhoto from "../../assets/logo/mcz.png";
 import FocusPhoto from "../../assets/logo/focus.png";
 import OstroPhoto from "../../assets/logo/ostro.png";
@@ -87,18 +94,37 @@ const PoeleBois = () => {
                 <Image src={ChazellePhoto} fluid />
               </a>
               &nbsp;
+              <a href="https://www.vyrosa.com/">
+                <Image src={VyrosaPhoto} fluid />
+              </a>
+              &nbsp;
+              <a href="https://scan-line.fr/homes/category/2">
+                <Image src={HetaPhoto} fluid />
+              </a>
+              &nbsp;
               <a href="https://www.mcz.it/fr/cheminees-a-bois/">
                 <Image src={MczPhoto} fluid />
               </a>
             </Col>
             <Col>
+              <a href="http://scan.dk/fr/accueil">
+                <Image src={ScanPhoto} fluid />
+              </a>
+              &nbsp;
+              <a href="https://www.jotul.fr/produits/bois/poeles-cheminees">
+                <Image src={JotulPhoto} fluid />
+              </a>
+              &nbsp;
               <a href="https://www.focus-creation.com/">
                 <Image src={FocusPhoto} fluid />
               </a>
               &nbsp;
-              &nbsp;
               <a href="https://www.austroflamm.com/fr/">
                 <Image src={OstroPhoto} fluid />
+              </a>
+              &nbsp;
+              <a href="https://www.austroflamm.com/fr/">
+                <Image src={TonwerkPhoto} fluid />
               </a>
             </Col>
           </Row>
