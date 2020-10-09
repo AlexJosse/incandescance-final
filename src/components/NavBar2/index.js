@@ -8,7 +8,7 @@ import * as S from "./style";
 const NavBar2 = () => {
 
   return (
-    <Container fluid>
+    <>
       <Row >
         <Col>
         <Navbar  expand="lg" bg="black" variant="dark">
@@ -44,7 +44,7 @@ const NavBar2 = () => {
     </Navbar>
     </Col>
   </Row>
-</Container>
+</>
     );
 };
 
