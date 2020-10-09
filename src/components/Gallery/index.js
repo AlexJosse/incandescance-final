@@ -24,12 +24,13 @@ const Gallery = () => {
         content="Réalisations incandescence"
       />
   </Helmet>
+  <div>
       <Header></Header>
           <S.TestDiv>
               <PhotoGallery></PhotoGallery>
               <Footer></Footer>
           </S.TestDiv>
-
+</div>
             </Container>
   );
 };
