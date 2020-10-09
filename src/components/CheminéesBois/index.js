@@ -64,7 +64,7 @@ const CheminéesBois = () => {
             <Col><KempLogo></KempLogo></Col>
           </Row></>
         }
-        <Row>
+        {isTabletOrMobile && <> <Row>
           <Col>
             <a href="https://www.chazelles.com/">
               <Image src={ChazellePhoto} fluid />
@@ -93,6 +93,7 @@ const CheminéesBois = () => {
             </a>
           </Col>
         </Row>
+        </>}
       <Footer></Footer>
         </S.Div>
     </>
