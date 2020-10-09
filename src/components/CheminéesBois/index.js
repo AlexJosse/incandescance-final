@@ -1,6 +1,7 @@
 import React from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 import { useMediaQuery } from 'react-responsive';
 import Header from "../Header/index";
 import Footer from "../Footer/index";
@@ -12,6 +13,12 @@ import KalfireLogo from "../Logo/kalfire";
 import KempLogo from "../Logo/kemp";
 import * as S from "./style";
 import Helmet from "react-helmet";
+import ChazellePhoto from "../../assets/logo/chazelle.png";
+import KalfirePhoto from "../../assets/logo/kalfire.png";
+import MczPhoto from "../../assets/logo/mcz.png";
+import KempPhoto from "../../assets/logo/kemp.png";
+import FocusPhoto from "../../assets/logo/focus.png";
+import OstroPhoto from "../../assets/logo/ostro.png";
 
 const CheminéesBois = () => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -43,6 +50,7 @@ const CheminéesBois = () => {
   </Helmet>
     <Header></Header>
         <S.Div>
+          {isDesktopOrLaptop && <>
           <Row>
             <Col><ChazelleLogo></ChazelleLogo></Col>
             <Col><MczLogo></MczLogo></Col>
@@ -54,7 +62,37 @@ const CheminéesBois = () => {
           <Row>
             <Col><KalfireLogo></KalfireLogo></Col>
             <Col><KempLogo></KempLogo></Col>
-          </Row>
+          </Row></>
+        }
+        <Row>
+          <Col>
+            <a href="https://www.chazelles.com/">
+              <Image src={ChazellePhoto} fluid />
+            </a>
+            &nbsp;
+            <a href="https://www.mcz.it/fr/cheminees-a-bois/">
+              <Image src={MczPhoto} fluid />
+            </a>
+            &nbsp;
+            <a href="https://kalfire.com/fr">
+              <Image src={KempPhoto} fluid />
+            </a>
+          </Col>
+          <Col>
+            <a href="https://kalfire.com/fr">
+              <Image src={KalfirePhoto} fluid />
+            </a>
+            &nbsp;
+            <a href="https://www.focus-creation.com/">
+              <Image src={FocusPhoto} fluid />
+            </a>
+            &nbsp;
+            &nbsp;
+            <a href="https://www.austroflamm.com/fr/">
+              <Image src={OstroPhoto} fluid />
+            </a>
+          </Col>
+        </Row>
       <Footer></Footer>
         </S.Div>
     </>

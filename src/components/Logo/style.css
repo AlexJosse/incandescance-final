@@ -2,7 +2,6 @@
   width: 60ch;
   height: 40ch;
   background: grey;
-
   max-width: 100%;
   border-radius: 5px;
   background-image: url(../../assets/logo/chazelle.png);
@@ -82,7 +81,7 @@
   width: 130ch;
   height: 40ch;
   background: grey;
-
+  object-fit: scale-down;
     max-width: 100%;
   border-radius: 5px;
   background-image: url(../../assets/logo/kalfire.png);
