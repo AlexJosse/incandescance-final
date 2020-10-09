@@ -11,7 +11,7 @@ export const TestDiv = styled.div`
   text-align: center;
   display: relative;
   position:relative;
-  height: 900px;
+  height: 1500px;
   flex-direction: column;
   background: grey;
   padding:30px;
