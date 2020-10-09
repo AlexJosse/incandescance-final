@@ -24,7 +24,7 @@ import Helmet from "react-helmet";
 const Showroom = () => {
 
   return (
-    <>
+    <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Showroom incandescence</title>
@@ -39,6 +39,7 @@ const Showroom = () => {
         content="showroom incandescence"
       />
   </Helmet>
+  <div>
       <Header></Header>
          <S.TestDiv>
             <Row>
@@ -72,7 +73,8 @@ const Showroom = () => {
             </Row>
             <Footer></Footer>
           </S.TestDiv>
-    </>
+        </div>
+        </Container>
   );
 };
 
