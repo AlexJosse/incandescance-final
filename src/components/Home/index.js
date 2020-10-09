@@ -1,5 +1,4 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
-import { useMediaQuery } from 'react-responsive';
 import Image from 'react-bootstrap/Image';
 import * as S from "./style";
 import { useSpring, animated } from "react-spring";
@@ -34,17 +33,6 @@ const Home = () => {
   const kalfire = () => {
     window.location.href = '/CheminéesElectriques';
   }
- const isDesktopOrLaptop = useMediaQuery({
-   query: '(min-device-width: 1224px)'
- })
- const isBigScreen = useMediaQuery({ query: '(min-device-width: 1824px)' })
- const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
- const isTabletOrMobileDevice = useMediaQuery({
-   query: '(max-device-width: 1224px)'
- })
- const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
- const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
-
 
   return (
     <Container fluid>

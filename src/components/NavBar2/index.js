@@ -6,22 +6,17 @@ import Col from 'react-bootstrap/Col';
 import * as S from "./style";
 
 const NavBar2 = () => {
-  const [activeTab, setactiveTab] = useState("/home");
-
-  const handleSelect = (key) => {
-
-  };
 
   return (
     <Container fluid>
-      <Row xs={1} md={1} lg={1}>
+      <Row >
         <Col>
-        <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
+        <Navbar  expand="lg" bg="black" variant="dark">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav ActiveKey={1} onSelect={handleSelect()} className="mr-auto">
-              <Nav.Link href="/home" eventKey={1} ><S.ItemA>Accueil</S.ItemA></Nav.Link>
-              <Nav.Link href="/showroom" eventKey={1} ><S.ItemA>Showroom</S.ItemA></Nav.Link>
+            <Nav  className="mr-auto">
+              <Nav.Link href="/home" ><S.ItemA>Accueil</S.ItemA></Nav.Link>
+              <Nav.Link href="/showroom"><S.ItemA>Showroom</S.ItemA></Nav.Link>
               <Nav.Link href="/gallery"><S.ItemA>Réalisations</S.ItemA></Nav.Link>
               <NavDropdown title={<S.ItemA>Poêles</S.ItemA>} id="collasible-nav-dropdown">
                 <NavDropdown.Item href="/PoelePellets"><S.ItemB><Row>Poêles à Pellets</Row></S.ItemB></NavDropdown.Item>
