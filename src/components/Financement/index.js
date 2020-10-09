@@ -1,8 +1,9 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
+
+import Container from 'react-bootstrap/Container';
 import * as S from "./style";
-import Container from "../Container/index";
 import { useSpring, animated } from "react-spring";
 import Typed from "react-typed";
 import Header from "../Header/index";
@@ -39,7 +40,7 @@ const Financement = () => {
     setVisibleSec(!visibleSec);
   }
   return (
-    <>
+    <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Financement Aides</title>
@@ -91,7 +92,7 @@ const Financement = () => {
           <Footer></Footer>
           </S.TestDiv>
         </animated.div>
-    </>
+    </Container>
   );
 };
 

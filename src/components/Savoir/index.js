@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+
+import Container from 'react-bootstrap/Container';
 import * as S from "./style";
 import Typed from "react-typed";
 import Header from "../Header/index";
@@ -8,7 +10,7 @@ import Helmet from "react-helmet";
 const Savoir = () => {
 
   return (
-    <>
+    <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Savoir faire</title>
@@ -47,7 +49,7 @@ const Savoir = () => {
           </S.Ul>
           <Footer></Footer>
         </S.Div>
-    </>
+    </Container>
   );
 };
 

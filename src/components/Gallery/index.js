@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Container from 'react-bootstrap/Container';
 import * as S from "./style";
 import Header from "../Header/index";
 import PhotoGallery from '../PhotoGrid/index';
@@ -8,7 +9,7 @@ import Helmet from "react-helmet";
 
 const Gallery = () => {
   return (
-    <>
+    <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Réalisations incandescence</title>
@@ -28,7 +29,8 @@ const Gallery = () => {
               <PhotoGallery></PhotoGallery>
               <Footer></Footer>
           </S.TestDiv>
-    </>
+
+            </Container>
   );
 };
 

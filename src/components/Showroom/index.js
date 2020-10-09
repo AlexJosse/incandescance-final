@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import * as S from "./style";
-import Container from "../Container/index";
+import Container from 'react-bootstrap/Container';
 import { useSpring, animated } from "react-spring";
 import Typed from "react-typed";
 import Row from 'react-bootstrap/Row';

@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+
+import Container from 'react-bootstrap/Container';
 import * as S from "./style";
 import Typed from "react-typed";
 import Header from "../Header/index";
@@ -8,7 +10,8 @@ import Helmet from "react-helmet";
 const Histoire = () => {
 
   return (
-    <>
+
+      <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Histoire incandescence</title>
@@ -44,7 +47,7 @@ const Histoire = () => {
           </S.Ul>
           <Footer></Footer>
         </S.Div>
-    </>
+    </Container>
   );
 };
 

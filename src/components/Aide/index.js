@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Container from 'react-bootstrap/Container';
 import * as S from "./style";
 import Typed from "react-typed";
 import Header from "../Header/index";
@@ -28,7 +29,7 @@ const Aide = () => {
   }
 
   return (
-    <>
+    <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Aide</title>
@@ -63,7 +64,7 @@ const Aide = () => {
 
       <Footer></Footer>
         </S.Div>
-    </>
+    </Container>
   );
 };
 

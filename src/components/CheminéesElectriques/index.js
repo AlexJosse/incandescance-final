@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { useMediaQuery } from 'react-responsive';
+import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Iframe from 'react-iframe';
 import Header from "../Header/index";
@@ -41,7 +42,7 @@ const CheminéesElectriques = () => {
   }
 
   return (
-    <>
+    <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Cheminées Electrique</title>
@@ -92,7 +93,7 @@ const CheminéesElectriques = () => {
             </>}
       <Footer></Footer>
         </S.Div>
-    </>
+    </Container>
   );
 };
 

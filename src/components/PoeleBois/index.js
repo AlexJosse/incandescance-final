@@ -3,6 +3,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import { useMediaQuery } from 'react-responsive';
+
+import Container from 'react-bootstrap/Container';
 import Header from "../Header/index";
 import Footer from "../Footer/index";
 import VyrosaLogo from "../Logo/vyrosa";
@@ -46,7 +48,8 @@ const PoeleBois = () => {
 
 
   return (
-    <>
+
+      <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Poëles Bois</title>
@@ -131,7 +134,7 @@ const PoeleBois = () => {
           </>}
           <Footer></Footer>
         </S.Div>
-    </>
+    </Container>
   );
 };
 

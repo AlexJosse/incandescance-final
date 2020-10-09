@@ -1,6 +1,7 @@
 import React from "react";
+
+import Container from 'react-bootstrap/Container';
 import * as S from "./style";
-import Container from "../Container/index";
 import { useSpring, animated } from "react-spring";
 import Typed from "react-typed";
 import Header from "../Header/index";
@@ -17,7 +18,7 @@ const Impot = () => {
   });
 
   return (
-    <>
+    <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>CREDITS D'IMPOTS ET AIDES FINANCIERES</title>
@@ -179,7 +180,7 @@ const Impot = () => {
           </S.TestDiv>
         </animated.div>
       </Container>
-    </>
+    </Container>
   );
 };
 

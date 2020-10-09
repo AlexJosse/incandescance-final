@@ -1,5 +1,7 @@
 import React from "react";
 import { useForm } from 'react-hook-form'
+
+import Container from 'react-bootstrap/Container';
 import * as S from "./style";
 import Typed from "react-typed";
 import Header from "../Header/index";
@@ -14,7 +16,8 @@ const FormEmail = () => {
   }
 
   return(
-    <>
+
+      <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Contacter incandescence</title>
@@ -54,7 +57,7 @@ const FormEmail = () => {
         </form>
       </S.Form>
       <Footer></Footer>
-    </>
+    </Container>
   );
 };
 

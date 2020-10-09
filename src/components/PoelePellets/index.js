@@ -2,6 +2,8 @@ import React from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+
+import Container from 'react-bootstrap/Container';
 import { useMediaQuery } from 'react-responsive';
 import Header from "../Header/index";
 import Footer from "../Footer/index";
@@ -24,7 +26,8 @@ const PoelePellets = () => {
   const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
 
   return (
-    <>
+
+      <Container fluid>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Poëles Pellets</title>
@@ -55,7 +58,7 @@ const PoelePellets = () => {
               </>}
             <Footer></Footer>
         </S.Div>
-    </>
+    </Container>
   );
 };
 
