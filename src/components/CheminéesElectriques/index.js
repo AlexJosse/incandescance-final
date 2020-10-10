@@ -57,7 +57,9 @@ const CheminéesElectriques = () => {
         content="Cheminées Electrique"
       />
   </Helmet>
+  <div>
     <Header></Header>
+    </div>
         <S.Div>
           <Iframe url="https://streamable.com/e/n0xs87?autoplay=1"
     width="100%"

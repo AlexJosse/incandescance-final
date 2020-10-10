@@ -64,7 +64,9 @@ const PoeleBois = () => {
         content="Poëles Bois"
       />
   </Helmet>
+  <div>
     <Header></Header>
+    </div>
         <S.Div>
           {isDesktopOrLaptop && <>
           <Row>

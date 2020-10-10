@@ -33,7 +33,9 @@ const Impot = () => {
         content="CREDITS D'IMPOTS ET AIDES FINANCIERES"
       />
   </Helmet>
+  <div>
       <Header></Header>
+      </div>
       <Container>
           <animated.div style={props}>
           <S.TestDiv>

@@ -46,7 +46,9 @@ const PoeleGaz = () => {
         content="Poëles Gaz"
       />
   </Helmet>
+  <div>
     <Header></Header>
+    </div>
         <S.Div>
           {isDesktopOrLaptop && <>
           <Row>

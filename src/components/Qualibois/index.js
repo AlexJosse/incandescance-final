@@ -42,7 +42,9 @@ const Qualibois = () => {
         content="Certification Qualibois"
       />
   </Helmet>
+  <div>
       <Header></Header>
+      </div>
         <S.Div>
           <br></br>
           <a href='../../assets/pdf/Incandescence-Certification-Qualibois.pdf' download><Button size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger la Certification Qualibois</Button></a>

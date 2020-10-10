@@ -26,7 +26,9 @@ const Histoire = () => {
         content="Histoire incandescence"
       />
   </Helmet>
+  <div>
       <Header></Header>
+      </div>
         <S.Div>
           <S.Ul>
             <S.Li>

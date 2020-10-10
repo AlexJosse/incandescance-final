@@ -42,7 +42,9 @@ const PoelePellets = () => {
         content="Poëles Pellets"
       />
   </Helmet>
+  <div>
     <Header></Header>
+    </div>
         <S.Div>
             {isDesktopOrLaptop && <>
             <MczLogo></MczLogo></>}

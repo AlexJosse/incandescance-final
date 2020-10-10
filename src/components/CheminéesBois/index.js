@@ -49,7 +49,9 @@ const CheminéesBois = () => {
         content="Cheminées Bois"
       />
   </Helmet>
+  <div>
     <Header></Header>
+    </div>
         <S.Div>
           {isDesktopOrLaptop && <>
           <Row>
