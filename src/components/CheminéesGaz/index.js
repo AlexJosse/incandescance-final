@@ -43,6 +43,7 @@ const CheminéesGaz = () => {
   </Helmet>
   <div>
     <Header></Header>
+    </div>
         <S.Div>
           {isDesktopOrLaptop && <>
           <Row>
@@ -68,7 +69,6 @@ const CheminéesGaz = () => {
 
       <Footer></Footer>
         </S.Div>
-        </div>
     </Container>
   );
 };
