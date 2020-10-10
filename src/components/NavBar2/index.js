@@ -44,18 +44,33 @@ const NavBar2 = () => {
     </Navbar>
     <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#link">Link</Nav.Link>
-      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      <Nav.Link href="#home">Acceuil</Nav.Link>
+      <Nav.Link href="#link">Showroom</Nav.Link>
+      <Nav.Link href="#link">Réalisations</Nav.Link>
+      <NavDropdown title="Poëles" id="basic-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Poêles à Pellets</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Poêles à Bois</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Poêles à Gaz</NavDropdown.Item>
       </NavDropdown>
+      <NavDropdown title="Cheminées" id="basic-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Cheminées à Bois</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Cheminées à Gaz</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Cheminées électriques</NavDropdown.Item>
+      </NavDropdown>
+      <NavDropdown title="L'entreprise" id="basic-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Qui sommes-nous ?</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Savoir-faire</NavDropdown.Item>
+      </NavDropdown>
+      <NavDropdown title="Informations Pratiques" id="basic-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Plan d'accès</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Nous contacter</NavDropdown.Item>
+      </NavDropdown>
+      <Nav.Link href="#link">Aides Financières</Nav.Link>
+      <Nav.Link href="#link">Certifications</Nav.Link>
+      <Nav.Link href="#link">Financement sans frais</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
