@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./components/Header/index";
-import NavBar from "./components/NavBar/index";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import theme from "./theme/theme";
