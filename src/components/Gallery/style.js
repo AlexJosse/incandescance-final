@@ -10,8 +10,8 @@ import WebFont from "webfontloader";
 export const TestDiv = styled.div`
   text-align: center;
   position:relative;
-  display: relative;
-  height: 2000px;
+  display: flex;
+  height: 2500px;
   flex-direction: column;
   background: grey;
   padding:30px;

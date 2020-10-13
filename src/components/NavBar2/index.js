@@ -11,7 +11,7 @@ const NavBar2 = () => {
     <>
       <Row >
         <Col>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg">
   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
