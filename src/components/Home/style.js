@@ -18,13 +18,14 @@ export const TestDiv = styled.div`
   z-index:-1;
 `;
 
-export const Overlay = styled.div`
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  z-index:1;
+export const TestDiv2 = styled.div`
+  text-align: center;
+  position: relative;
+  height: 1400px;
+  flex-direction: column;
+  background: grey;
+  padding: 0;
+  display: relative;
 `;
 
 export const Div = styled.div`
