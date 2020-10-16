@@ -26,6 +26,7 @@ export const TestDiv2 = styled.div`
   background: grey;
   padding: 0;
   display: relative;
+  z-index:1;
 `;
 
 export const Div = styled.div`
