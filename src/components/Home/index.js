@@ -4,6 +4,7 @@ import * as S from "./style";
 import { useSpring, animated } from "react-spring";
 import Typed from "react-typed";
 import Container from 'react-bootstrap/Container';
+import { useMediaQuery } from 'react-responsive';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -34,8 +35,20 @@ const Home = () => {
     window.location.href = '/CheminéesElectriques';
   }
 
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  })
+  const isBigScreen = useMediaQuery({ query: '(min-device-width: 1824px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isTabletOrMobileDevice = useMediaQuery({
+    query: '(max-device-width: 1224px)'
+  })
+  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
+
+
   return (
-    <Container fluid>
+    <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
       <Helmet>
         {/* <!-- HTML Meta Tags --> */}
         <title>Incandescence</title>
@@ -62,8 +75,8 @@ const Home = () => {
           <animated.div style={props}>
             <S.Div>
               <Covid></Covid>
-
-              <SideBar></SideBar>
+              {isDesktopOrLaptop && <>
+              <SideBar></SideBar></>}
 
             </S.Div>
             <S.TestDiv>

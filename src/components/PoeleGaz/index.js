@@ -31,7 +31,7 @@ const PoeleGaz = () => {
 
   return (
 
-      <Container fluid>
+      <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Poëles Gaz</title>

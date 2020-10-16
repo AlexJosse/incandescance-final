@@ -34,7 +34,7 @@ const CheminéesBois = () => {
   const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
 
   return (
-    <Container fluid>
+    <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Cheminées Bois</title>

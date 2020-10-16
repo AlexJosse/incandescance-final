@@ -10,7 +10,7 @@ import Helmet from "react-helmet";
 const Savoir = () => {
 
   return (
-    <Container fluid>
+    <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Savoir faire</title>

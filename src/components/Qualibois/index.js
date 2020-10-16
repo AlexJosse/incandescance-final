@@ -27,7 +27,7 @@ const Qualibois = () => {
 
   return (
 
-      <Container fluid>
+      <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Certification Qualibois</title>
