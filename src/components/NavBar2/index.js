@@ -8,9 +8,8 @@ import * as S from "./style";
 const NavBar2 = () => {
 
   return (
-    <>
-      <Row >
-        <Col>
+
+      <Container fluid>
     <Navbar bg="dark" variant="dark" expand="lg">
   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -43,9 +42,7 @@ const NavBar2 = () => {
   </Navbar.Collapse>
 </Navbar>
 
-    </Col>
-  </Row>
-</>
+</Container>
     );
 };
 
