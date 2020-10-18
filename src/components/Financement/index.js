@@ -2,6 +2,7 @@ import React, { useLayoutEffect, useRef, useState } from "react";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import * as S from "./style";
 import { useSpring, animated } from "react-spring";
@@ -57,6 +58,7 @@ const Financement = () => {
   </Helmet>
 
    <Row style={{ paddingLeft: 0, paddingRight: 0 }}>
+     <Col style={{ padding-left: 0, padding-right: 0 }}>
   <div>
       <Header></Header>
       </div>
@@ -96,6 +98,7 @@ const Financement = () => {
           <Footer></Footer>
           </S.TestDiv>
         </animated.div>
+      </Col>
       </Row>
     </Container>
   );
