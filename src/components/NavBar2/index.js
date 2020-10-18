@@ -36,7 +36,7 @@ const NavBar2 = () => {
         <NavDropdown.Item href="/map">Plan d'accès</NavDropdown.Item>
         <NavDropdown.Item href="/contact">Nous contacter</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="/Aides">Aides Financières</Nav.Link>
+      <Nav.Link href="/Aide">Aides Financières</Nav.Link>
       <Nav.Link href="/Certifications">Certifications</Nav.Link>
       <Nav.Link href="/Financement">Financement sans frais</Nav.Link>
     </Nav>

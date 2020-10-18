@@ -20,13 +20,11 @@ export const TestDiv = styled.div`
 
 export const TestDiv2 = styled.div`
   text-align: center;
-  position: relative;
-  height: 1400px;
+  position:relative;
+  display: relative;
   flex-direction: column;
   background: grey;
-  padding: 0;
-  display: relative;
-  z-index:1;
+  height:2000px;
 `;
 
 export const Div = styled.div`
