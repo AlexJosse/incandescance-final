@@ -27,7 +27,6 @@ const Gallery = () => {
       <Header></Header>
           <S.TestDiv>
               <PhotoGallery></PhotoGallery>
-              <Footer></Footer>
           </S.TestDiv>
 </div>
             </Container>
