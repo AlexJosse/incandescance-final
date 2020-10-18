@@ -28,10 +28,11 @@ export const TestDiv2 = styled.div`
 `;
 
 export const Div = styled.div`
-  text-align: left;
-  display: relative;
-  flex-direction: column;
-  background: grey;
+text-align: center;
+position:relative;
+display: relative;
+flex-direction: column;
+background: grey;
 `;
 
 export const TestElem = styled.p`
