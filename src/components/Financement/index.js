@@ -40,7 +40,7 @@ const Financement = () => {
     setVisibleSec(!visibleSec);
   }
   return (
-    <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
+    <Container fluid style={margin-right : 0 !important, margin-left : 0 !important }}>
     <Helmet>
       {/* <!-- HTML Meta Tags --> */}
       <title>Financement Aides</title>
