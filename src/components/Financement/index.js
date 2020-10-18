@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
-
+import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import * as S from "./style";
 import { useSpring, animated } from "react-spring";
