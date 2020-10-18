@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import * as S from "./style";
 import Header from "../Header/index";
 import PhotoGallery from '../PhotoGrid/index';
-import Button from "../Button/index";
 import Footer from "../Footer/index";
 import Helmet from "react-helmet";
 
