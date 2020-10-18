@@ -63,7 +63,7 @@ const CheminéesElectriques = () => {
         <S.Div>
           <Iframe url="https://streamable.com/e/n0xs87?autoplay=1"
     width="100%"
-    height="700px"
+    height="400px"
     id="myId"
     className="myClassname"
     display="initial"

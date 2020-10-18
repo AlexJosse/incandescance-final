@@ -73,12 +73,14 @@ const Home = () => {
         <Header></Header>
           {/*<PopUp></PopUp>*/}
           <animated.div style={props}>
+            {isDesktopOrLaptop && <>
             <S.Div>
               <Covid></Covid>
-              {isDesktopOrLaptop && <>
-              <SideBar></SideBar></>}
+
+              <SideBar></SideBar>
 
             </S.Div>
+            </>}
             {isDesktopOrLaptop && <> <S.TestDiv>
               <Iframe url="https://streamable.com/e/rc5tlo?autoplay=1"
         width="100%"
@@ -93,7 +95,7 @@ const Home = () => {
           {isTabletOrMobile && <><S.TestDiv2>
                     <Iframe url="https://streamable.com/e/rc5tlo?autoplay=1"
               width="100%"
-              height="800px"
+              height="400px"
               id="myId"
               className="myClassname"
               display="initial"
