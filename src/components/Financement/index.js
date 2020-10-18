@@ -56,7 +56,7 @@ const Financement = () => {
       />
   </Helmet>
 
-   <Row style={{ margin-left: 0, margin-right: 0 }}>
+   <Row style={{ paddingLeft: 0, paddingRight: 0 }}>
   <div>
       <Header></Header>
       </div>
