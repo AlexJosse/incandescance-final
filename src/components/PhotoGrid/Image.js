@@ -256,7 +256,6 @@ class Image extends Component {
                     </div>
                 )}
             </div>
-            <Footer></Footer>
             </Container>
         );
     }
