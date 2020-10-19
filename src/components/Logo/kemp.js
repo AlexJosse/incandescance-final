@@ -14,7 +14,7 @@ const KempLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="kemp"
               onClick={goTo}

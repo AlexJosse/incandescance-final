@@ -1,4 +1,4 @@
-import styled, {createGlobalStyle} from "styled-components";
+import styled  from "styled-components";
 
 export const Div = styled.div`
   text-align: center;

@@ -14,7 +14,7 @@ const NestorLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="nestor"
               onClick={goTo}

@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import Container from 'react-bootstrap/Container';
 import CheckButton from './CheckButton.js';
+import Footer from "../Footer/index";
 
 class Image extends Component {
     constructor (props) {
@@ -173,6 +175,8 @@ class Image extends Component {
         var ThumbnailImageComponent = this.props.thumbnailImageComponent;
 
         return (
+
+            <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
                 <div className="ReactGridGallery_tile"
             key={"tile-"+this.props.index}
             onMouseEnter={(e) => this.setState({hover: true})}
@@ -239,7 +243,7 @@ class Image extends Component {
                 {this.props.item.thumbnailCaption && (
                         <div className="ReactGridGallery_tile-description"
                     style={{
-                        background: "white",
+                        background: "grey",
                         height: "100%",
                         width: "100%",
                         margin: 0,
@@ -252,6 +256,8 @@ class Image extends Component {
                     </div>
                 )}
             </div>
+            <Footer></Footer>
+            </Container>
         );
     }
 }

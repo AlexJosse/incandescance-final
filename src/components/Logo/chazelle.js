@@ -14,7 +14,7 @@ const ChazelleLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="chazelle"
               onClick={goTo}

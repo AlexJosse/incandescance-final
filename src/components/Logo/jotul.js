@@ -14,7 +14,7 @@ const JotulLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="jotul"
               onClick={goTo}

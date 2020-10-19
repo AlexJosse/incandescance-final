@@ -1,5 +1,4 @@
-import React, {Component, useState} from 'react';
-import * as S from "./style";
+import React from 'react';
 import './style.css';
 
 const SideBar = () => {
@@ -19,9 +18,9 @@ const SideBar = () => {
   return(
     <>
     <div id="mySidenav" class="sidenav">
-      <a href="#" id="facebook" onClick={goFb}><i className="fa fa-facebook fa-2x"></i>&nbsp;&nbsp;&nbsp;Notre page</a>
-      <a href="#" id="instagram" onClick={goIg}><i className="fa fa-instagram fa-2x"></i>&nbsp;&nbsp;Notre Instragram</a>
-      <a href="#" id="contact" onClick={goMessage}><i className="fa fa-envelope fa-2x"></i>&nbsp;&nbsp;Nous contactez</a>
+      <a href="#/" id="facebook" onClick={goFb}><i className="fa fa-facebook fa-2x"></i>&nbsp;&nbsp;&nbsp;Notre page</a>
+      <a href="#/" id="instagram" onClick={goIg}><i className="fa fa-instagram fa-2x"></i>&nbsp;&nbsp;Notre Instragram</a>
+      <a href="#/" id="contact" onClick={goMessage}><i className="fa fa-envelope fa-2x"></i>&nbsp;&nbsp;Nous contactez</a>
     </div>
     </>
   );

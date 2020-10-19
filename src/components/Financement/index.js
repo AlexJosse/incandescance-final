@@ -1,11 +1,9 @@
-import React, { useLayoutEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
 import Container from 'react-bootstrap/Container';
 import * as S from "./style";
-import { useSpring, animated } from "react-spring";
-import Typed from "react-typed";
 import Header from "../Header/index";
 import Footer from "../Footer/index";
 import Logo from "../../assets/others/franfinance.png";
@@ -15,18 +13,6 @@ const Financement = () => {
 
   const [visibleFirst, setVisibleFirst] = useState(true);
   const [visibleSec, setVisibleSec] = useState(true);
-
-  const props = useSpring({
-    opacity: 1,
-    marginTop: 0,
-    from: { opacity: 0, marginTop: -50 },
-    delay: 500
-  });
-
-  const sloganProps = useSpring({
-    opacity: 1,
-    from: { opacity: 0 }
-  });
 
   const imageClick = () => {
     window.open("https://www.franfinance.fr/", "_blank");
@@ -58,7 +44,6 @@ const Financement = () => {
   <div>
       <Header></Header>
       </div>
-        <animated.div style={props}>
           <S.TestDiv>
             <S.TestElem>
               <S.AlignDivTitle>
@@ -93,7 +78,6 @@ const Financement = () => {
 
           <Footer></Footer>
           </S.TestDiv>
-        </animated.div>
     </Container>
   );
 };

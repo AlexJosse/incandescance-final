@@ -14,7 +14,7 @@ const OstroLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="ostro"
               onClick={goTo}

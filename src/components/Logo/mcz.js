@@ -14,7 +14,7 @@ const MczLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="mcz"
               onClick={goTo}

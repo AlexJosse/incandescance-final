@@ -20,7 +20,6 @@ import Aide from "./components/Aide/index";
 import Histoire from "./components/Histoire/index";
 import Savoir from "./components/Savoir/index";
 import MapContainer from "./components/Map/index";
-import Plan from "./components/Plan/index";
 import 'react-bnb-gallery/dist/style.css';
 import Helmet from "react-helmet";
 
@@ -58,7 +57,6 @@ function App() {
             <Route exact path="/contact" component={FormEmail} />
             <Route exact path="/impot" component={Impot} />
             <Route exact path="/map" component={MapContainer} />
-            <Route exact path="/plan" component={Plan} />
             <Route exact path="/financement" component={Financement} />
             <Route exact path="/CheminéesBois" component={CheminéesBois} />
             <Route exact path="/CheminéesGaz" component={CheminéesGaz} />

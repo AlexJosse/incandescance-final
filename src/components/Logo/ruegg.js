@@ -10,7 +10,7 @@ const RueggLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="ruegg"
               onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}

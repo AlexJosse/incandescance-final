@@ -14,7 +14,7 @@ const TonwerkLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="tonwerk"
               onClick={goTo}

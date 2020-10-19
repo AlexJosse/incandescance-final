@@ -14,7 +14,7 @@ const HetaLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="heta"
               onClick={goTo}

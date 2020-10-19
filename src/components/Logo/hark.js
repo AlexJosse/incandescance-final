@@ -14,7 +14,7 @@ const HarkLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="hark"
               onClick={goTo}

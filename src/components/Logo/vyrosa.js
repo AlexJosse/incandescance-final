@@ -14,7 +14,7 @@ const VyrosaLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="virosa"
               onClick={goTo}

@@ -1,11 +1,9 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import { Map, GoogleApiWrapper, InfoWindow, Marker} from 'google-maps-react';
 import * as S from "./style";
 import Header from "../Header/index";
 import Container from 'react-bootstrap/Container';
 import Footer from "../Footer/index";
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Helmet from "react-helmet";
 
@@ -65,11 +63,11 @@ const MapContainer = () => {
             </br>
             <S.Text><strong>Mail : </strong>infos@incandescence-chauffage.com</S.Text><br>
           </br>
-            <S.Text><strong>Facebook : </strong> <Button size="lg" variant="outline-primary">Rejoignez nous <a href="">
+            <S.Text><strong>Facebook : </strong> <Button size="lg" variant="outline-primary">Rejoignez nous <a href="#/">
             <i onClick={goInsta} className="fa fa-facebook fa-2x"></i>
             </a></Button></S.Text><br>
           </br>
-            <S.Text><strong>Instagram : </strong><Button size="lg" variant="outline-primary">Plus de vidéos <a href="">
+            <S.Text><strong>Instagram : </strong><Button size="lg" variant="outline-primary">Plus de vidéos <a href="#/">
               <i onClick={goFacebook} className="fa fa-instagram fa-2x"></i>
               </a></Button></S.Text><br>
           </br>

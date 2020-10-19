@@ -14,7 +14,7 @@ const KalfireLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               class="kalfire"
               onClick={goTo}

@@ -14,7 +14,7 @@ const FocusLogo = () => {
 
   return (
     <>
-          <a href="">
+          <a href="#/">
             <animated.div style={props}
               onClick={goTo}
               class="focus"
