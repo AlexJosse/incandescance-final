@@ -9,6 +9,7 @@ import SideBar from "../Sidebar/index";
 import PopUp from "../PopUp/index";
 import Iframe from 'react-iframe';
 import Helmet from "react-helmet";
+import ReactPlayer from "react-player";
 
 const Home = () => {
 
@@ -73,13 +74,13 @@ const Home = () => {
             </S.TestDiv>
             </>}
           {isTabletOrMobile && <><S.TestDiv2>
-                    <Iframe url="https://streamable.com/e/rc5tlo?autoplay=1"
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=NW1GdVTMr3U&feature=youtu.be"
+              playing={true}
               width="100%"
-              height="400px"
-              id="myId"
-              className="myClassname"
-              display="initial"
-              position="relative"/>
+              height="300px"
+              volume="0"
+            />
             <Footer></Footer>
           </S.TestDiv2>
           </>}
