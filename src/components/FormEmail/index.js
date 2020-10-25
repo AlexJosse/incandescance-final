@@ -1,18 +1,26 @@
 import React from "react";
-import { useForm } from 'react-hook-form'
-
 import Container from 'react-bootstrap/Container';
-import * as S from "./style";
-import Typed from "react-typed";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Header from "../Header/index";
 import Footer from "../Footer/index";
+import * as S from './style';
 import Helmet from "react-helmet";
+import emailjs from 'emailjs-com';
+import{ init } from 'emailjs-com';
 
 const FormEmail = () => {
-  const { register, handleSubmit } = useForm();
 
-  const onSubmit = data => {
-    console.log(data);
+  function sendEmail(e) {
+    init("user_dsgqWR5FcTMMs7JPkcBxg");
+    e.preventDefault();
+
+    emailjs.sendForm('1', 'template_sdv3zj8', e.target, 'user_dsgqWR5FcTMMs7JPkcBxg')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   }
 
   return(
@@ -33,30 +41,20 @@ const FormEmail = () => {
       />
   </Helmet>
       <Header></Header>
-        <S.Form>
-          <form onSubmit={handleSubmit(onSubmit)}>
-          <S.P>infos@incandescence-chauffage.com</S.P>
-          <S.Div>
-           <S.Input type="text" placeholder="Nom" name="Nom" ref={register({required: true, maxLength: 100})} />
-          </S.Div>
-          <S.Div>
-           <S.Input type="text" placeholder="Email" name="Email" ref={register({required: true, pattern: /^\S+@\S+$/i})} />
-          </S.Div>
-          <S.Div>
-            <S.Input type="tel" placeholder="Téléphone" name="Téléphone" ref={register({maxLength: 12})} />
-          </S.Div>
-          <S.Div>
-            <S.Input type="text" placeholder="Titre" name="Titre" ref={register({required: true})} />
-           </S.Div>
-           <S.Div>
-            <S.TextArea ref={register({required: true})}> Votre message</S.TextArea>
-           </S.Div>
-           <S.DivSend>
-            <S.InputSend type="submit" value="Envoyer"/>
-          </S.DivSend>
-        </form>
-      </S.Form>
+      <S.Div>
+        <Row className="justify-content-md-center" style={{ paddingLeft: 0, paddingRight: 0 }}>
+          <form className="contact-form" onSubmit={sendEmail}>
+            <S.Input type="hidden" name="contact_number" />
+            <S.Input type="text" name="user_name" placeholder="Votre téléphone" />
+            <S.Input type="email" name="user_email" placeholder="Votre email" />
+            <label>Message</label>
+            <S.Textarea name="message" />
+            <S.Input type="submit" value="Envoyer" />
+          </form>
+        </Row>
+
       <Footer></Footer>
+        </S.Div>
     </Container>
   );
 };
