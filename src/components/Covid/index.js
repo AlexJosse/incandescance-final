@@ -11,11 +11,18 @@ const Covid = () => {
   return (
     <>
     <Alert show={show} variant="success">
-      <Alert.Heading>Information Covid-19 !</Alert.Heading>
+      <Alert.Heading>Confinement COVID 19 !</Alert.Heading>
       <Row>
         <Col>
           <p>
-            Geste barrière, désinfection des mains et port du masque obligatoire dans notre magasin
+            Bonjour nous continuons notre activité pendant le confinement.
+          Le magasin sera fermé, mais nous pouvons vous recevoir sur rendez-vous.
+          <br></br>
+          Contactez-nous par mail ou par téléphone. Les rendez-vous à domicile
+         sont toujours d'actualités et notre planning n'est pour le moment
+         pas impacté.
+         <br></br>
+         Bon courage et portez vous bien !
           </p>
         </Col>
       </Row>
