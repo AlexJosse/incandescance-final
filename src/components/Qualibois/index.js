@@ -47,7 +47,7 @@ const Qualibois = () => {
       </div>
         <S.Div>
           <br></br>
-          <a href='../../assets/pdf/Incandescence-Certification-Qualibois.pdf' download><Button size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger la Certification Qualibois</Button></a>
+          <a href='https://docdro.id/FZ8A2vd' download><Button size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger la Certification Qualibois</Button></a>
           <Button size="lg" block variant="dark" onClick={displayFirst}><i className="fa fa-file-download fa-2x"></i>Afficher Certification Qualibois</Button>
           {visibleFirst  ? <PDFReader  url={FileAide}
                       page={1}

@@ -68,7 +68,7 @@ const CheminéesElectriques = () => {
     className="myClassname"
     display="initial"
     position="relative"/>
-        <a href='../../assets/pdf/e-one.pdf' download><Button variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le pdf</Button></a>
+        <a href='https://docdro.id/VVp7uJF' download><Button variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le pdf</Button></a>
         {isDesktopOrLaptop && <>
         <PDFReader  url={FileEone}
                     page={pageNumber}
