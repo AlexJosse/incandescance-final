@@ -12,8 +12,10 @@ export const TestDiv = styled.div`
   position:relative;
   display: flex;
   flex-direction: column;
-  background: black;
+  background: grey;
   padding: 30px;
+
+  height: 3500px;
 `;
 
 export const Intro = styled.p`

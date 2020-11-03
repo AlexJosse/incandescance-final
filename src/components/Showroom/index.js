@@ -45,26 +45,18 @@ const Showroom = () => {
               <Col xs={6} md={4}><Image src={Photo2} fluid></Image></Col>
               <Col xs={6} md={4}><Image src={Photo11} fluid></Image></Col>
             </Row>
-          </S.TestDiv>
-          <S.TestDiv>
             <Row>
               <Col><Image src={Photo3} fluid></Image></Col>
               <Col><Image src={Photo4} fluid></Image></Col>
             </Row>
-          </S.TestDiv>
-          <S.TestDiv>
             <Row>
               <Col><Image src={Photo5} fluid></Image></Col>
               <Col><Image src={Photo6} fluid></Image></Col>
             </Row>
-          </S.TestDiv>
-          <S.TestDiv>
             <Row>
               <Col><Image src={Photo7} fluid></Image></Col>
               <Col><Image src={Photo8} fluid></Image></Col>
             </Row>
-          </S.TestDiv>
-          <S.TestDiv>
             <Row>
               <Col><Image src={Photo9} fluid></Image></Col>
               <Col><Image src={Photo10} fluid></Image></Col>
