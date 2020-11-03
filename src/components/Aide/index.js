@@ -8,6 +8,7 @@ import FileAide from '../../assets/pdf/Incandescence-Aides-Financières.pdf';
 import { PDFReader  } from 'react-read-pdf';
 import Button from 'react-bootstrap/Button';
 import Helmet from "react-helmet";
+import { saveAs } from 'file-saver';
 
 const Aide = () => {
 
@@ -28,6 +29,11 @@ const Aide = () => {
     }
   }
 
+
+    const download = () => {
+      saveAs('https://docdro.id/zhGVRLA', 'Aides.pdf')
+    }
+
   return (
     <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
     <Helmet>
@@ -47,7 +53,7 @@ const Aide = () => {
       <Header></Header>
         <S.Div>
           <br></br>
-          <a href='https://docdro.id/zhGVRLA' download><Button size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le PDF</Button></a>
+          <Button onClick={download} size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le PDF</Button></a>
           <br></br>
           <Button onClick={displayFirst} size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Afficher le PDF</Button>
           {visibleFirst  ? <PDFReader  url={FileAide}

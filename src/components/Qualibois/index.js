@@ -26,8 +26,11 @@ const Qualibois = () => {
   }
 
   const download = () => {
-    console.log("llsl")
     saveAs('https://docdro.id/FZ8A2vd', 'Certification.pdf')
+  }
+
+  const dl = () => {
+    saveAs('https://docdro.id/vQSup99', 'Expert.pdf')
   }
 
   return (
@@ -58,7 +61,7 @@ const Qualibois = () => {
                       page={1}
                       width={1000}/> : null}
                       <br></br>
-          <a href='../../assets/pdf/Incandescence-Certification-Qualibois.pdf' download><Button size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger la expert Chaleur</Button></a>
+          <Button onClick={dl} size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger la expert Chaleur</Button>
           <Button size="lg" block variant="dark" onClick={displaySec}><i className="fa fa-file-download fa-2x"></i>Afficher Certification expert Chaleur</Button>
           {visibleSec  ? <PDFReader  url={FileAide2}
                       page={1}
