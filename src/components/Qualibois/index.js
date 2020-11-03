@@ -10,7 +10,7 @@ import FileAide2 from '../../assets/pdf/ECB-Certificat-adhesion-Incandescence.pd
 import { PDFReader  } from 'react-read-pdf';
 import Button from 'react-bootstrap/Button';
 import Helmet from "react-helmet";
-
+import { saveAs } from 'file-saver';
 
 const Qualibois = () => {
 
@@ -23,6 +23,11 @@ const Qualibois = () => {
 
   const displaySec = () => {
     setVisibleSec(!visibleSec);
+  }
+
+  const download = () => {
+    console.log("llsl")
+    saveAs('https://docdro.id/FZ8A2vd', 'Certification.pdf')
   }
 
   return (
@@ -47,7 +52,7 @@ const Qualibois = () => {
       </div>
         <S.Div>
           <br></br>
-          <a href='https://docdro.id/FZ8A2vd' download><Button size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger la Certification Qualibois</Button></a>
+          <Button onClick={download} size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger la Certification Qualibois</Button>
           <Button size="lg" block variant="dark" onClick={displayFirst}><i className="fa fa-file-download fa-2x"></i>Afficher Certification Qualibois</Button>
           {visibleFirst  ? <PDFReader  url={FileAide}
                       page={1}
