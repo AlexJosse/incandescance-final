@@ -53,7 +53,7 @@ const Aide = () => {
       <Header></Header>
         <S.Div>
           <br></br>
-          <Button onClick={download} size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le PDF</Button></a>
+          <Button onClick={download} size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Télécharger le PDF</Button>
           <br></br>
           <Button onClick={displayFirst} size="lg" block variant="dark"><i className="fa fa-file-download fa-2x"></i>Afficher le PDF</Button>
           {visibleFirst  ? <PDFReader  url={FileAide}
