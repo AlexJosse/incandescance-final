@@ -70,6 +70,9 @@ const PoeleGaz = () => {
                 </Col>
               </Row>
             </>}
+            
+          <br></br><br></br><br></br><br></br>
+          <br></br><br></br><br></br><br></br>
           <Footer></Footer>
         </S.Div>
     </Container>

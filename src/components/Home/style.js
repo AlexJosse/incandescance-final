@@ -24,7 +24,7 @@ export const TestDiv2 = styled.div`
   display: relative;
   flex-direction: column;
   background: grey;
-  height:2000px;
+  height:100%;
 `;
 
 export const Div = styled.div`

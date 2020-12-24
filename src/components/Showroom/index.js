@@ -61,6 +61,10 @@ const Showroom = () => {
               <Col><Image src={Photo9} fluid></Image></Col>
               <Col><Image src={Photo10} fluid></Image></Col>
             </Row>
+            
+          <br></br><br></br><br></br><br></br>
+          <br></br><br></br><br></br><br></br>
+          
             <Footer></Footer>
           </S.TestDiv>
         </div>

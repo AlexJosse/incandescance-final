@@ -67,6 +67,8 @@ const Qualibois = () => {
                       page={1}
                       width={1000}/> : null}
 
+<br></br><br></br><br></br><br></br>
+          <br></br><br></br><br></br><br></br>
         <Footer></Footer>
         </S.Div>
     </Container>

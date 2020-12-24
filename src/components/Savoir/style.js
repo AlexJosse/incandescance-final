@@ -5,7 +5,7 @@ export const Div = styled.div`
   position:relative;
   display: relative;
   flex-direction: column;
-  height: 2000px;
+  height: 100%;
   background: grey;
   padding:30px;
 `;

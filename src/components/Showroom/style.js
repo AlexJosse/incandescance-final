@@ -14,8 +14,7 @@ export const TestDiv = styled.div`
   flex-direction: column;
   background: grey;
   padding: 30px;
-
-  height: 3500px;
+  height: 100%;
 `;
 
 export const Intro = styled.p`

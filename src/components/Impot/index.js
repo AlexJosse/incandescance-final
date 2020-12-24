@@ -178,6 +178,9 @@ const Impot = () => {
                   L'Agence Nationale pour l'Amélioration de l'Habitat octroie une aide financière aux propriétaires occupants faisant l'acquisition d'un appareil labellisé Flamme Verte.
               </div>
             </S.TestElem>
+            
+          <br></br><br></br><br></br><br></br>
+          <br></br><br></br><br></br><br></br>
             <Footer></Footer>
           </S.TestDiv>
         </animated.div>

@@ -49,6 +49,9 @@ const Savoir = () => {
               <S.Text><strong>Incandescence est certifiée</strong> par le label RGE QUALIBOIS et EXPERT CHALEUR BOIS</S.Text>
             </S.Li>
           </S.Ul>
+          
+          <br></br><br></br><br></br><br></br>
+          <br></br><br></br><br></br><br></br>
           <Footer></Footer>
         </S.Div>
     </Container>
